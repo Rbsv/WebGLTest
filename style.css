@@ -18,8 +18,10 @@ body
 
 .container {
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
+    margin-top: -40%;
+    margin-left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +55,7 @@ body
     background: rgb(255, 255, 255);
     box-shadow: 0 0 0 5px #d6f109, 0 0 0 15px #ace809, 0 0 0 18px #ffffff;
    
-    top : -330%;
+    top : -380%;
     clip-path: polygon(48% 100%,0 0,99% 1%); 
 }
 
