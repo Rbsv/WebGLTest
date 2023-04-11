@@ -7,13 +7,9 @@
 
 </head>
 <body>
-    <div class="bg">
-    </div>
-<div class="title"> Spin The Sustainablility Wheel</div>
+   
     <div class="container">
-        <div class="Notch"></div>
         <div class="spinBtn">Spin</div>
-       
         <div class="Wheel">
         <div class="Number" style="--i:1;--clr:#f9d108;" > <img src = Images/Icons-06.png> <span  style="color: black;">Plant a tree</span></div>
         <div class="Number" style="--i:2;--clr:#f33c0f;"> <img src = Images/Icons-08.png> <span>Repurpose, Recycle</span></div>
@@ -31,7 +27,6 @@
 
         
     </div>
-  
    
     <script>
        
@@ -42,7 +37,6 @@ let value =  Math.ceil(Math.random () * 3600);
 
 spinBtn.onclick =  function() {
     console.log("Wheel Rot"+getCurrentRotation(document.querySelector(".Wheel")));
-    
     Wheel.style.transform = "rotate(" + value + "deg)"
     value += Math.ceil(Math.random () * 3550);
     setTimeout(function() {
