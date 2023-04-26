@@ -15,6 +15,7 @@
  font-weight: 900;
  font-size: 3em;
  top: 3%;
+ margin-left: 10vw;
  color: #ffffff;
  border: #000000;
  -webkit-text-stroke: 3px rgb(112, 106, 106);
@@ -59,15 +60,16 @@ body
 
 .container {
     position: relative;
-    width: 500px;
-    height: 500px;
-    margin-top: 8%;
-    margin-left: 3%;
+    width: 600px;
+    height: 600px;
+    margin-top: 20vh;
+    margin-right: 0vw;
+    margin-left: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
     scale: 140%;
-    filter: drop-shadow(-20px 50px 40px rgba(50, 50, 0, 0.8));
+    filter: drop-shadow(-20px 50px 100px rgba(50, 50, 0, 0.8));
     
 }
 
