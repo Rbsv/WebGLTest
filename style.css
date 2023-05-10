@@ -27,7 +27,7 @@
  margin-left: 15vw;
  color: #ffffff;
  border: #000000;
- -webkit-text-stroke: 3px rgb(112, 106, 106);
+ -webkit-text-stroke: 3px rgb(3, 0, 0);
     -webkit-text-fill-color: white;
     text-shadow: 2px #000000;
  
@@ -72,7 +72,7 @@ body
     width: 500px;
     height: 500px;
     margin-top: 45%;
-    margin-left: 15%;
+    left: 9%;
     display: flex;
     justify-content: center;
     align-items: center;
