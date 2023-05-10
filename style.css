@@ -71,12 +71,12 @@ body
     position: relative;
     width: 500px;
     height: 500px;
-    margin-top: 40%;
+    margin-top: 45%;
     margin-left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    scale: 140%;
+    scale: 165%;
    /* filter: drop-shadow(-20px 50px 100px rgba(50, 50, 0, 0.8));*/
     
 }
