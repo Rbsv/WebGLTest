@@ -36,7 +36,7 @@
 .bg {
     /* The image used */
     position: absolute;
-    background-image:url('https://t3.ftcdn.net/jpg/00/42/38/64/360_F_42386404_8sna8z12I8y3cx4I8Bom9gsxdSsg2Ut1.jpg');
+    background-image:url('https://i.pinimg.com/originals/53/81/86/5381868338d1e905906eb4795d032211.png');
    
     
     opacity: 0.8;
@@ -52,8 +52,10 @@
     /* Center and scale the image nicely */
     background-position: top;
     background-repeat: repeat;
-    display: flex;
-    scale: 140%;
+    
+
+    
+    
   }
 
 body
