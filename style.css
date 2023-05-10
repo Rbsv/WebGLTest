@@ -7,6 +7,15 @@
     font-family: 'Poppins',sans-serif;
 }
 
+.topleftimg{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    z-index: 2;
+}
+
 .title{
  text-decoration-color: aliceblue; 
 
@@ -14,8 +23,8 @@
  position: absolute;
  font-weight: 900;
  font-size: 3em;
- top: 3%;
- margin-left: 10vw;
+ top: 10%;
+ margin-left: 15vw;
  color: #ffffff;
  border: #000000;
  -webkit-text-stroke: 3px rgb(112, 106, 106);
@@ -62,8 +71,8 @@ body
     position: relative;
     width: 500px;
     height: 500px;
-    margin-top: 8%;
-    margin-left: 3%;
+    margin-top: 40%;
+    margin-left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
