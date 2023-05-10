@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SpinWheel</title>
+    <link rel="stylesheet" type="text/css" href="style_desk.css">
+
+</head>
+<body>
+    <div class="bg">
+    </div>
+<div class="title"> Spin The Sustainablility Wheel</div>
+    <div class="container">
+        <div class="Notch"></div>
+        <div class="spinBtn">Spin</div>
+       
+        <div class="Wheel">
+        <div class="Number" style="--i:1;--clr:#f9d108;" > <img src = Images/Icons-06.png> <span  style="color: black;">Plant a tree</span></div>
+        <div class="Number" style="--i:2;--clr:#f33c0f;"> <img src = Images/Icons-08.png> <span>Repurpose, Recycle</span></div>
+        <div class="Number" style="--i:3;--clr:#25058d;"> <img src = Images/Icons-07.png> <span >Buy Local, Live Local</span></div>
+        <div class="Number" style="--i:4;--clr:#05b058;"> <img src = Images/Icons-03.png> <span>Make Compose From Kitchen Waste</span></div>
+        <div class="Number" style="--i:5;--clr:#f33c0f;"> <img src = Images/Sofa-01.png><span>Refurbish Old Furniture</span></div>
+        <div class="Number" style="--i:6;--clr:#25058d;"> <img src = Images/Icons-01.png><span style="margin-right: 20%">Do Carpool</span></div>
+       
+        <div class="Number" style="--i:7;--clr:#f33c0f;"> <img src = Images/Icons-04.png> <span>Upcycle clothes</span></div>
+        <div class="Number" style="--i:8;--clr:#f9d108;"> <img src = Images/Icons-02.png> <span style="color: black;">Create Best out of Waste</span></div>
+        <div class="Number" style="--i:9;--clr:#05b058;"> <img src = Images/Icons-05.png> <span>Segregate Waste</span></div>
+       
+
+        </div>
+
+        
+    </div>
+  
+   
+    <script>
+       
+let Wheel = document.querySelector('.Wheel');
+let spinBtn = document.querySelector('.spinBtn');
+//let value =  Math.ceil(Math.random () * 3600);
+let value =  Math.ceil(Math.random () * 3600);
+
+spinBtn.onclick =  function() {
+    console.log("Wheel Rot"+getCurrentRotation(document.querySelector(".Wheel")));
+    
+    Wheel.style.transform = "rotate(" + value + "deg)"
+    value += Math.ceil(Math.random () * 3660);
+    setTimeout(function() {
+        var rotationval =getCurrentRotation(document.querySelector(".Wheel"));
+        console.log("Wheel Rot"+rotationval);
+
+        if( rotationval>0 && rotationval<=23){
+            console.log("PlantTree");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/EfenTA27b4xKv22e3fiKukMBbR4y2VN_5t0CTGwwYtM7Wg?e=3gmbK9");
+        }
+        if(rotationval>23 && rotationval<=65){
+            console.log("SegregateWaste");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/EeWC0YaPX6FDmc791FFl27EBpABrJZ7IMFAkEq4ch_4-TQ?e=qNWHwP");
+        }   
+
+        if(rotationval>65 && rotationval<=105){
+            console.log("create best out of waste");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/Ef2jabmyxTZMqIb1OtyGyYcBQfMHDkW4-BBjvyDLpjbK9g?e=V17jhY");
+        }
+
+        if(rotationval>105 && rotationval<=140){
+            console.log("Upcycleclothes");
+            window.location.replace("https://tatapower-my.sharepoint.com/personal/abhishek_prasad_tatapower_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fabhishek%5Fprasad%5Ftatapower%5Fcom%2FDocuments%2FAWG%2Emp4&ga=1");
+        }
+
+        if(rotationval>140 && rotationval<=185){
+            console.log("Do Car Pool");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/ESQLgv-oXmJEi8y7fzCv8-gB06RxsuXeLa_mv0otU24yVw?e=97vzbU");
+        }
+        if(rotationval>185 && rotationval<=225){
+            console.log("REfurbish old Furniture");
+            window.location.replace("https://tatapower-my.sharepoint.com/personal/abhishek_prasad_tatapower_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fabhishek%5Fprasad%5Ftatapower%5Fcom%2FDocuments%2FRecycled%20paper%201%2Emp4&ga=1");
+        }
+        if(rotationval>225 && rotationval<=260){
+            console.log("make compostheap");
+            window.location.replace("https://tatapower-my.sharepoint.com/personal/abhishek_prasad_tatapower_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fabhishek%5Fprasad%5Ftatapower%5Fcom%2FDocuments%2FBiofuel%2Emp4&ga=1");
+        }
+        if(rotationval>260 && rotationval<=304){
+            console.log("buy local live clocal");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/Ef2jabmyxTZMqIb1OtyGyYcBQfMHDkW4-BBjvyDLpjbK9g?e=V17jhY");
+        }
+        if(rotationval>304 && rotationval<=345){
+            console.log("repurpose Recycle");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/EQ2THgHGo6dKpMqwWFTRzpcBeLWVxs8x789dvZTb7qnnow?e=YJKci5");
+        }
+        if(rotationval>345 && rotationval<=360){
+            console.log("Plant a Tree");
+            window.location.replace("https://tatapower-my.sharepoint.com/:v:/p/abhishek_prasad/EfenTA27b4xKv22e3fiKukMBbR4y2VN_5t0CTGwwYtM7Wg?e=3gmbK9");
+        }
+  //your code to be executed after 1 second
+}, 6000);
+    
+
+}
+
+ function getRotationValue(){
+    console.log("Wheel Rot"+getCurrentRotation(document.querySelector(".Wheel")));
+ }
+
+function getCurrentRotation(el){
+  var st = window.getComputedStyle(el, null);
+  var tm = st.getPropertyValue("-webkit-transform") ||
+           st.getPropertyValue("-moz-transform") ||
+           st.getPropertyValue("-ms-transform") ||
+           st.getPropertyValue("-o-transform") ||
+           st.getPropertyValue("transform") ||
+           "none";
+  if (tm != "none") {
+    var values = tm.split('(')[1].split(')')[0].split(',');
+    /*
+    a = values[0];
+    b = values[1];
+    angle = Math.round(Math.atan2(b,a) * (180/Math.PI));
+    */
+    //return Math.round(Math.atan2(values[1],values[0]) * (180/Math.PI)); //this would return negative values the OP doesn't wants so it got commented and the next lines of code added
+    var angle = Math.round(Math.atan2(values[1],values[0]) * (180/Math.PI));
+    return (angle < 0 ? angle + 360 : angle); //adding 360 degrees here when angle < 0 is equivalent to adding (2 * Math.PI) radians before
+  }
+  return 0;
+}
+
+
+
+
+    </script>
+
+<div id = "overlay">
+    <div id="text">Overlay Text</div>
+</div>
+</body>
+</html>
