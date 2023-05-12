@@ -35,7 +35,7 @@
     font-size: 3em;
     top: 21%;
     left: 18%;
-   
+   text-transform: capitalize;
     color: #1a1a1a;
    -webkit-text-fill-color: rgb(0, 0, 0);
    z-index: 2;

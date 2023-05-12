@@ -41,6 +41,7 @@
  margin-left: 4vw;
  color: #1a1a1a;
 -webkit-text-fill-color: rgb(0, 0, 0);
+text-transform: capitalize;
 z-index: 2;
  
 }
