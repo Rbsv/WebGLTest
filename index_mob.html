@@ -12,23 +12,24 @@
     <img class="toprightimg" src="Images/tata.png" alt="logo">
     <div class="bg">
     </div>
+    <div class ="title2"> Tune in to watch the SIAFEST event<br> live stream on </div>
     <div class ="title1"> May 17th, 3:30 pm onwards. </div>
-<div class="title"> Spin The Sustainablility Wheel</div>
+<div class="title"> Spin The Sustainability Wheel</div>
     <div class="container">
         <div class="Notch"></div>
         <div class="spinBtn">Spin</div>
        
         <div class="Wheel">
-            <div class="Number" style="--i:1;--clr:#b7f1d5;" > <img src = Images/Icons-08.png> <span  style="color: black;">Repurpose, Recycle</span></div>
-            <div class="Number" style="--i:2;--clr:#034336;"> <img src = Images/Icons-09.png> <span >Preventing Pollution</span></div>
-            <div class="Number" style="--i:3;--clr:#f9d108;"> <img src = Images/Icons-07.png> <span style="color: black;" >Organic Eating</span></div>
-            <div class="Number" style="--i:4;--clr:#b7f1d5;"> <img src = Images/ebook-01.png> <span style="color: black;">Driving Sustainablility</span></div>
-            <div class="Number" style="--i:5;--clr:#034336;"> <img src = Images/Icons-03.png><span >Eco Friendly Living</span></div>
-            <div class="Number" style="--i:6;--clr:#f9d108;"> <img src = Images/handwash-01.png><span  style="margin-right: 20%; color: black;">Save Water</span></div>
+            <div class="Number" style="--i:1;--clr:#b7f1d5;" > <img src = Images/Icons-08.png> <span  style="color: black;">Repurpose, recycle</span></div>
+            <div class="Number" style="--i:2;--clr:#034336;"> <img src = Images/Icons-09.png> <span >Preventing pollution</span></div>
+            <div class="Number" style="--i:3;--clr:#f9d108;"> <img src = Images/Icons-07.png> <span style="color: black;" >Organic eating</span></div>
+            <div class="Number" style="--i:4;--clr:#b7f1d5;"> <img src = Images/ebook-01.png> <span style="color: black;">Driving sustainability</span></div>
+            <div class="Number" style="--i:5;--clr:#034336;"> <img src = Images/Icons-03.png><span >Eco friendly living</span></div>
+            <div class="Number" style="--i:6;--clr:#f9d108;"> <img src = Images/handwash-01.png><span  style="margin-right: 20%; color: black;">Save water</span></div>
            
             <div class="Number" style="--i:7;--clr:#b7f1d5;"> <img src = Images/Icons-04.png> <span style="color: black;">Upcycle plastic</span></div>
             <div class="Number" style="--i:8;--clr:#034336;"> <img src = Images/Icons-02.png> <span >Create best out of waste</span></div>
-            <div class="Number" style="--i:9;--clr:#f9d108;"> <img src = Images/Sofa-01.png> <span style="color: black;">Refurbish Old Furniture</span></div>
+            <div class="Number" style="--i:9;--clr:#f9d108;"> <img src = Images/Sofa-01.png> <span style="color: black;">Refurbish old furniture</span></div>
            
 
         </div>
@@ -36,19 +37,17 @@
         
     </div>
     <div class="headlineBottom">
-        Let's Adopt a sustainable lifestyle!
+        Let's Adopt a Sustainable lifestyle!
     </div>
   
    
     <script>
-
-        
        
 let Wheel = document.querySelector('.Wheel');
 let spinBtn = document.querySelector('.spinBtn');
 //let value =  Math.ceil(Math.random () * 3600);
 let value =  Math.ceil(Math.random () * 3600);
-
+Wheel.style.transform = "rotate(" + 20 + "deg)"
 spinBtn.onclick =  function() {
     console.log("Wheel Rot"+getCurrentRotation(document.querySelector(".Wheel")));
     
