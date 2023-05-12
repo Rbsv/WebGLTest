@@ -267,14 +267,15 @@ body
 .container .Wheel .Number span
 {
     position: relative;
-    transform: rotate(40deg);
+    transform: rotate(37deg);
     font-size: .9em;
     font-weight: 700;
     color: #ffffff;
     top: 16%;
    /*margin-left: 20%;*/
    left: 13%;
-    text-align: left ;
+   
+    align-items: center;
 }
 
 .container .Wheel .Number img {
